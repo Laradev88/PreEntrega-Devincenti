@@ -13,8 +13,16 @@ body{
 	grid-row-gap: 10px;
 	background-color: violet;
 	border: 1px solid black;
+}
 
+.historia{
+	height: 600px;
+	display: grid;
+	grid-template-areas: "historia" "sueños" "pandemia" ;
 
+	grid-row-gap: 10px;
+	background-color: hotpink;
+	border: 1px solid black;
 }
 
 .caja{ 	 
@@ -22,8 +30,13 @@ body{
 	background-color: violet;
 	text-align: center;
     padding: 20px;
+}
 
-
+.cajas{ 	 
+	border: 3px white;
+	background-color: orangered;
+	text-align: center;
+    padding: 20px;
 }
 
 .c1{
@@ -71,4 +84,19 @@ body{
 	.grid{
 		grid-template-rows: 20% 10% auto 15%;
 	}
+}
+
+.caja1{
+	grid-area: historia;
+	background-image: linear-gradient(to top, violet, lightpink);
+}
+
+.caja2{
+	grid-area: sueños;
+	background-image: linear-gradient(to top, violet, lightpink);
+}
+
+.caja3{
+	grid-area: pandemia;
+	background-image: linear-gradient(to top, violet, lightpink);
 }
