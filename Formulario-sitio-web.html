@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">  
+</head>
+<body>
+	 <form action="">
+        <fieldset>
+            <legend>Contacto:</legend>
+            
+            <p>
+                <label for="first-name">Nombre</label>
+                <br>
+                <input type="text" name="first-name" placeholder="completa tu nombre" required />
+            </p>
+            <p>
+                <label for="last-name">Apellido</label>
+                <br>
+                <input type="text" name="last-name" placeholder="completa tu apellido" required />
+            </p>
+            <p>
+                <label for="mail">Mail</label>
+                <br>
+                <input type="text" name="mail" placeholder="completa tu mail" required />
+            </p>
+            <p>
+                <label for="estado">Estado civil</label>
+                <br>
+                <select name="estado">
+                    <option value="soltero"selected>Soltero</option>
+                    <option value="casado">Casado</option>
+                    <option value="divorciado">Divorciado</option>
+                </select>
+            </p>
+            <p>
+            	<p>
+                <label for="acepta">Desea recibir newsletter?</label>
+                <br>
+                <input type="radio" name="acepta" value="yes">
+                <label for="yes">si</label>
+                <input type="radio" name="acepta" value="nop">
+                <label for="nop">no</label>
+            </p>
+            <p>
+            	<textarea>comentarios</textarea>
+            </p>
+
+            	<button type="reset">
+                    limpiar formulario
+                </button>
+
+                <button type="submit">
+                    enviar formulario
+                </button>
+            </p>
+        </fieldset>
+    </form>
+    <a href="#pie">Ir al pie de página</a>
+        <footer id="pie"></footer>
+
+</body>
+</html>
