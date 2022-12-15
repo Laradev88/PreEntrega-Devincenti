@@ -1,0 +1,24 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "pasando a sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile-sass":"node-sass sass/main.scss css/main.css --watch"
+     
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laradev88/PreEntrega2-Devincenti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laradev88/PreEntrega2-Devincenti/issues"
+  },
+  "homepage": "https://github.com/Laradev88/PreEntrega2-Devincenti#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
